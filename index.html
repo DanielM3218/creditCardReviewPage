@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="left"></div>
+    <div class="right">
+        <div class="innercontainer">
+            <!-- <label for="name">Card Hholder Name</label>
+            <input type="text" id="name">
+            <br>
+            <label for="cardnum">Card Number</label>
+            <input type="number" id="cardnum">
+            <br>
+            <label for="exp">Exp.Date</label>
+            <label for="monthyear">[mm.yy]</label>
+            <label for="cvc">CVC</label>
+            <br>
+            <input type="date" id="exp">
+            <input type="date" id="monthyear">
+            <input type="number" id="cvc"> -->
+            <form>
+                <label for="cardholder-name">Cardholder Name</label>
+                <input type="text" id="cardholder-name" placeholder="e.g. Jane Appleseed">
+                
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" placeholder="e.g. 1234 5678 9123 0000">
+                
+                <div class="exp-cvc">
+                  <div>
+                    <label for="exp-date">Exp. Date (MM/YY)</label>
+                    <input type="text" id="exp-date" placeholder="MM / YY">
+                  </div>
+                  <div>
+                    <label for="cvc">CVC</label>
+                    <input type="text" id="cvc" placeholder="e.g. 123">
+                  </div>
+                </div>
+                
+                <button type="submit">Confirm</button>
+              </form>
+        </div>
+    </div>
+    <div class="front"></div>
+    <div class="back"></div>
+</body>
+
+</html>
